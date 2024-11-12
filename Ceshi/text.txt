@@ -1,0 +1,17 @@
+pip install -q -U langchain openai tiktoken pinecone-client
+pip freeze > requirements.txt
+pip install -r requirements.txt -i https://pypi.douban.com/simple
+
+SecretId:AKIDjKkxxkOq6EBwW0PhpnaAkeT7b1MXVGpI
+SecretKey:MUVO4XwIXZOzRmupW1JQJzTN7kFbnncJ
+
+git init
+git add .
+
+git config --global user.email "624951671@qq.com"
+git config --global user.name "rainmyforest"
+git commit -m "first commit"
+git branch -M main
+
+git remote add origin git@github.com:rainmyforest/Ceshi.git
+git push -u origin main
